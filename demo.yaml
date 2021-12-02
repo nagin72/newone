@@ -2,6 +2,7 @@ trigger:
   - master
 
 pool: default
+name: "ubuntu-latest"
 
 
 jobs:
