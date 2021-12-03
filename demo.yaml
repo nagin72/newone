@@ -1,8 +1,18 @@
+parameters:
+- name: clean
+  displayName: Checkout clean
+  type: boolean
+  default: false
+  values:
+  - false
+  - true
 trigger:
   - master
 
 pool: default
-name: "ubuntu-latest"
+
+
+#name: "ubuntu-latest"
 
 
 jobs:
